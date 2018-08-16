@@ -1,2 +1,10 @@
 # MSc_Thesis-Classify-Objects-Using-bigger-NN
-This is a part of my Thesis "Curve Recognition and Object Classification using Artificial Intelligence Methods". At this step we classify the objects using the curvature and Neural Networks. Every NN represents a whole image or an image group. This is Matlab code. You can find my Thesis at this link : http://ikee.lib.auth.gr/record/299139/?ln=en
+At this final experiment we use a similar but different 3rd approach. We train a NN at the curvature data that come from a whole image -or an image-group of the same objects. Thus we need bigger NN. Afterwars we use these NN to classify an image. 
+
+#3
+curveFitTrain: Create the NN
+curveFitTest: Classify an new image. We first calculate its curvature and then predict it using all the NN. The best one represents the object class.
+
+
+
+The code above uses the following Functions:

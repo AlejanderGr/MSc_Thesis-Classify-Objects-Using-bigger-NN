@@ -6,12 +6,12 @@
 
 clear all
 
-netMat=cell(1,10*8);
+netMat=cell(1,10*8); %total NN
 
 
 coilPics=[1 4 5 8 11 13 14 15 16 18]; 
 
-totalPoses=[70 71 1 2  8 9 11 12  16 17 19 20  24 25 27 28  34 35 37 38  43 44 46 47  51 52 54 55  58 59 61 62];
+totalPoses=[1 11 19 27 37 46 54 61];
 
 
 feedbackDelays = 1:2;

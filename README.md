@@ -8,3 +8,9 @@ curveFitTest: Classify an new image. We first calculate its curvature and then p
 
 
 The code above uses the following Functions:
+
+FUNcalcKampParametriki2ou: extract the curvature
+
+FUNfindContour: image processing and contour extraction
+
+FUNPrediction: find the best NN
